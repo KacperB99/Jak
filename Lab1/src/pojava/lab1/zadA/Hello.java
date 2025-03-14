@@ -9,17 +9,17 @@ class Hello
     		System.out.println("Podaj jakiś argument");
     		return;
     	}
-    	int n;
+    	int nm;
     	try
     	{
-    		n = Integer.parseInt(args[0]);
+    		nm = Integer.parseInt(args[0]);
     	}
     	catch(NumberFormatException e)
     	{
     		System.out.println("Argument musi być liczbą");
     		return;
     	}
-        for (int i = 1; i <= n; i++) 
+        for (int i = 1; i <= nm; i++) 
         {
         	System.out.println("Witaj!");
             System.out.println(i);
